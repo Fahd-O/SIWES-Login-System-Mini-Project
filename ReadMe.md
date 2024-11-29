@@ -1,22 +1,24 @@
 # SIWES Login System Mini-Project
 
-This repository contains the login system mini-project developed during my Student's Industrial Work Experience Scheme (SIWES) at the university after my 2nd year. The project was completed in two phases:
+This repository contains the login system mini-project developed during my Student's Industrial Work Experience Scheme (SIWES) at the university after my 2nd year. This project demonstrates the transition from a static web application to a dynamic, database-driven system. It highlights key web development concepts such as authentication, error handling, and user interface design. Created and completed between Mon, 27th Sep 2021 and Fri, 3rd Dec 2021. The project was completed in two phases:
 
 1. **Static Version:** A front-end-only login page that redirects users to a dummy profile page, regardless of input.
 2. **Dynamic Version:** An upgraded version with backend functionality to verify user credentials, handle errors, and grant access to the dummy profile page upon valid login.
+
+## Technologies Used
+
+- **Frontend:** HTML5, CSS3
+- **Backend:** PHP
+- **Database:** MySQL
 
 ## Folder Structure
 
 - **`static/`**: Contains the static version of the login system.
   - Files include `login.html`, `loginPro.css`, and `profile.html`.
-  - A screenshot of the folder contents:
-    ![Static Version Folder Contents](static-folder-screenshot.png)
-
+  
 - **`dynamic/`**: Contains the dynamic version of the login system.
   - Includes PHP and CSS files, along with MySQL database integration for credential validation.
-  - A screenshot of the folder contents:
-    ![Dynamic Version Folder Contents](dynamic-folder-screenshot.png)
-
+  
 ## Static Version
 
 The static version is a simple HTML and CSS implementation of a login page. Features include:
@@ -41,29 +43,8 @@ The dynamic version enhances the static version with backend functionality using
    - **`connection.php`**: Establishes the connection to the MySQL database.
    - **`functions.php`**: Includes helper functions for validation and error handling.
    - **`login.php`**: Handles the login process and displays appropriate messages for errors or successful logins.
-   - **`signup.php`**: Allows users to add credentials (optional if included).
-   - **`logout.php`**: Manages user logouts.
-
-## MySQL Database Setup
-
-To use the dynamic version, set up the MySQL database as follows:
-
-1. Create a database (e.g., `login_system`).
-2. Create a table for user credentials with the following schema:
-
-   ```sql
-   CREATE TABLE users (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       username VARCHAR(50) NOT NULL,
-       password VARCHAR(255) NOT NULL
-   );
-   ```
-
-3. Add sample user data:
-
-   ```sql
-   INSERT INTO users (username, password) VALUES ('12345', 'password123');
-   ```
+   - **`signup.php`**: Allows users to add credentials
+   - **`logout.php`**: Clears session and logs users out.
 
 ## Screenshots
 
@@ -83,19 +64,6 @@ To use the dynamic version, set up the MySQL database as follows:
 **Profile Page (After Login):**
 ![Dynamic Profile Page](dynamic-profile-page-screenshot.png)
 
-## Technologies Used
+## License
 
-- **Frontend:** HTML5, CSS3
-- **Backend:** PHP
-- **Database:** MySQL
-
-## Notes
-
-This project demonstrates the transition from a static web application to a dynamic, database-driven system. It highlights key web development concepts such as authentication, error handling, and user interface design.
-
-### To Finalize
-
-- Replace the placeholder screenshot filenames with actual filenames or paths once the screenshots are uploaded to the repository.
-- Confirm if any additional details need to be included in the documentation.
-
-Let me know if further adjustments are needed!
+This repository is shared without any specific license, as it primarily serves as an educational archive.
