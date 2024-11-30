@@ -48,21 +48,9 @@ The dynamic version enhances the static version with backend functionality using
 
 ## Screenshots
 
-### For Static Version
+Here's a screenshots of the project folder properties:
 
-**Login Page:**
-![Static Login Page](static-login-page-screenshot.png)
-
-**Profile Page:**
-![Static Profile Page](static-profile-page-screenshot.png)
-
-### For Dynamic Version
-
-**Login Page:**
-![Dynamic Login Page](dynamic-login-page-screenshot.png)
-
-**Profile Page (After Login):**
-![Dynamic Profile Page](dynamic-profile-page-screenshot.png)
+![Project Folder Properties Screenshot](./img/SIWES.png)
 
 ## License
 
