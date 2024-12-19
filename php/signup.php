@@ -64,7 +64,7 @@ session_start();
             
             <p>
                 <label for="user password" class="pw">Password:</label> 
-                <input type="password" name="user_password" id="userpassword"/>
+                <input type="password" name="password" id="userpassword"/>
             </p>
 
             <p>
