@@ -75,12 +75,12 @@ session_start();
 
             <p>
                 <label for="Username" class="un">Username:</label> 
-                <input type="text" name="user_name" id="Username"/>
+                <input type="text" name="user_name" id="Username" required/>
             </p>
             
             <p>
                 <label for="User Password" class="pw">Password:</label> 
-                <input type="password" name="password" id="User Password"/>
+                <input type="password" name="password" id="User Password" required/>
             </p>
 
             <p>
