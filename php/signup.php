@@ -47,6 +47,7 @@ session_start();
     <div class="logo"> <a class="w">Web</a><a class="c">Code</a><a class="tm">&trade;</a> </div> 
 
     <div id="box">
+        
         <form method="POST"> 
 
             <h1 style="text-align: center;">
@@ -70,10 +71,11 @@ session_start();
             <p>
                 <input type="submit" value="Signup" class="signupbutton"/>
             </p>
-
-            <a href="Login.php" ><button class="loginbutton" > Login </button></a>
-
+            
         </form>
+        
+        <a href="Login.php" ><button class="loginbutton" > Login </button></a>
+
     </div>    
 
     <footer class="page_footer"><!-- Displays footer, usually Copyrights --> 
