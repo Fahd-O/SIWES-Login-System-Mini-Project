@@ -1,6 +1,6 @@
 # Simple Signup and Login System with PHP and MySQL
 
-This project is a step by step follow-up of a YouTube tutorial <https://youtu.be/WYufSGgaCZ8?si=1l5c4uscZiz-rFje> on how to build a simple signup and login system using PHP and MySQL. It the tutorial's replica. It includes features such as user registration, login, and session management. It was after this that I was able to build a customized login system for my SIWES project task.
+This project is a step by step follow-up of a YouTube tutorial <https://youtu.be/WYufSGgaCZ8?si=1l5c4uscZiz-rFje> on how to build a simple signup and login system using PHP and MySQL. It's the tutorial's replica. It includes features such as user registration, login, and session management. It was after this that I was able to build a customized login system for my SIWES project task.
 
 ## Features
 
