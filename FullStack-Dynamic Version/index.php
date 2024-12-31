@@ -23,7 +23,7 @@ session_start();
         User Profile
     </h1>
 
-    <img src="Profile.png"/> <br><br><br>
+    <img src="/img/Profile.png"/> <br><br><br>
 
     <a href="Logout.php"> Logout </a>
 
