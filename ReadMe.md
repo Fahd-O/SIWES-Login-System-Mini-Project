@@ -48,8 +48,9 @@ The dynamic version enhances the static version with backend functionality using
 
 ## Screenshots
 
-Here's a screenshots of the project folder properties:
+Here are screenshots from the project:
 
+![Project Login page UI Screenshot](./img/Login-UI.png)
 ![Project Folder Properties Screenshot](./img/SIWES.png)
 
 ## License
