@@ -14,7 +14,7 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> WebCode </title>
+    <title>WebCode | Dashboard</title>
     <link rel="stylesheet" href="loginPro.css" >
 </head>
 <body class="outline">
@@ -23,7 +23,7 @@ session_start();
         User Profile
     </h1>
 
-    <img src="../img/Profile.png"/> <br><br><br>
+    <img src="../img/Profile.png" alt="Profile.png"/> <br><br><br>
 
     <a href="Logout.php"> Logout </a>
 
